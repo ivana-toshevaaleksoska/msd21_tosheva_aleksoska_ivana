@@ -32,13 +32,23 @@ After all combinations are generated the program ends.
 
 ### Details
 
-You can see details of the project [here](exercise1.md)
+You can see details of the project [here](exercise1.md)  
+The details of the second exercise are [here](exercise2.md)
 
 ### Contribution
 
 >Please consult author if you want to contribute or make any
 >changes to this code or if you want to share it.
 
-### Author: ```Ivana Tosheva Aleksoska```
+Author: ```Ivana Tosheva Aleksoska```
+
+#### Online GitHub Repository  
+
+**GitHub Profile** - [link](https://github.com/ivana-toshevaaleksoska)  
+
+#### Educational institution  
+
+[University of Applied Sciences FH-Joanneum](https://www.fh-joanneum.at/)  
+
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
