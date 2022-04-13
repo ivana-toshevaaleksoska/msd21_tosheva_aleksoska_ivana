@@ -28,6 +28,8 @@ date: 27.03.2022
 
  _git pull_ - fetches the files from the online repository and updates the local repository.  
 
+ ![preview](git_diff_pull_push.png)
+
  _git push_ - sends the commits and pushes updates to the online repository.  
 
- ![preview](git_diff_pull_push.png)
+ ![preview](git_push.png)

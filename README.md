@@ -34,6 +34,7 @@ After all combinations are generated the program ends.
 
 You can see details of the project [here](exercise1.md)  
 The details of the second exercise are [here](exercise2.md)
+To view the details of the third exercise click [here](exercise3.md) 
 
 ### Contribution
 
