@@ -1,3 +1,5 @@
+//Author: Ivana Tosheva Aleksoska <ivana.toshevaaleksoska@edu.fh-joanneum.at>
+
 package at.fhj.msd;
 
 public class Calculator {
