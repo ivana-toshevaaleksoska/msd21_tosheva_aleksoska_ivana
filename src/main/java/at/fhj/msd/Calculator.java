@@ -24,14 +24,14 @@ public class Calculator {
     }
 
     public long factorialRec(int n) {
-        //      if (n <= 2) {
-        //          return n;
-        //      }
-//        if (n<0){
-//            return 0;
-//        }
-        //      return n * factorialRec(n - 1);
-        return 0;
+        if (n <= 2) {
+            return n;
+        }
+        if (n < 0) {
+            return 0;
+        }
+        return n * factorialRec(n - 1);
+
 
     }
 }
