@@ -1,3 +1,5 @@
+//Author: Ivana Tosheva Aleksoska <ivana.toshevaaleksoska@edu.fh-joanneum.at>
+
 package at.fhj.msd;
 
 import org.junit.jupiter.api.Assertions;
@@ -23,10 +25,30 @@ public class CalculatorTest {
     }
 
     @Test
+    public void testAdd1(){
+        double a = 15;
+        double b = 5;
+        double expectedResult = a+b;
+        double result = calcTest.add(a,b);
+
+        Assertions.assertEquals(expectedResult,result);
+    }
+
+    @Test
     public void testMinus(){
         double a = 20;
         double b = 10;
         double expectedResult = 10;
+        double result = calcTest.minus(a,b);
+
+        Assertions.assertEquals(expectedResult,result);
+    }
+
+    @Test
+    public void testMinus1(){
+        double a = 8;
+        double b = 3;
+        double expectedResult = a-b;
         double result = calcTest.minus(a,b);
 
         Assertions.assertEquals(expectedResult,result);
@@ -43,10 +65,20 @@ public class CalculatorTest {
     }
 
     @Test
+    public void testMultiply1(){
+        double a = 7;
+        double b = 2;
+        double expectedResult = a*b;
+        double result = calcTest.multiply(a,b);
+
+        Assertions.assertEquals(expectedResult,result);
+    }
+
+    @Test
     public void testDivide(){
-        double a = 20;
-        double b = 10;
-        double expectedResult = 2;
+        double a = 16;
+        double b = 4;
+        double expectedResult = 16/4;
         double result = calcTest.divide(a,b);
 
         Assertions.assertEquals(expectedResult,result);

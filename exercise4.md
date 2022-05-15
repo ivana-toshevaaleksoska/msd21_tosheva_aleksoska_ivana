@@ -28,3 +28,10 @@ In the testcases there are tests for the 4 calculation methods
 where the result is compared with the expected result and 
 if they have the same value the test is successful 
 ![preview](src/resources/images/ex4_1.png).
+
+In the following part of the exercise we implement the test 
+for the factorial calculation, without implementing the method. 
+As expected, we get an error from which we can notice the method 
+hasn't been implemented ![preview](src/resources/images/ex4_2.png).
+
+Author: ```Ivana Tosheva Aleksoska```
