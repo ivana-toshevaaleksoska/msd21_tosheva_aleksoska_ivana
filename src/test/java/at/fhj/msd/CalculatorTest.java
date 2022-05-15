@@ -76,6 +76,16 @@ public class CalculatorTest {
 
     @Test
     public void testDivide(){
+        double a = 20;
+        double b = 10;
+        double expectedResult = 2;
+        double result = calcTest.divide(a,b);
+
+        Assertions.assertEquals(expectedResult,result);
+    }
+
+    @Test
+    public void testDivide1(){
         double a = 16;
         double b = 4;
         double expectedResult = 16/4;
