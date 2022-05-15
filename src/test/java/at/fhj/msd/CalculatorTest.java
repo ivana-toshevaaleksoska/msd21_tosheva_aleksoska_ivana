@@ -51,4 +51,31 @@ public class CalculatorTest {
 
         Assertions.assertEquals(expectedResult,result);
     }
+
+    @Test
+    public void factorial() {
+        int n = 5;
+        long expectedResult = 120;
+        long result = calcTest.factorialRec(n);
+
+        Assertions.assertEquals(expectedResult,result);
+    }
+
+    @Test
+    public void factorial1() {
+        int n = 12;
+        long expectedResult = 479001600;
+        long result = calcTest.factorialRec(n);
+
+        Assertions.assertEquals(expectedResult, result);
+    }
+
+    @Test
+    public void factorial2() {
+        int n = 3;
+        long expectedResult = 6;
+        long result = calcTest.factorialRec(n);
+
+        Assertions.assertEquals(expectedResult, result);
+    }
 }
