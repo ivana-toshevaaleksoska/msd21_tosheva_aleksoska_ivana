@@ -27,11 +27,13 @@ In the testcases there are tests for the 4 calculation methods
 
 where the result is compared with the expected result and 
 if they have the same value the test is successful 
-![preview](src/resources/images/ex4_1.png).
+![preview](C:/projects/msd21_tosheva_aleksoska_ivana/resources/images/ex4_1.png)
 
 In the following part of the exercise we implement the test 
 for the factorial calculation, without implementing the method. 
 As expected, we get an error from which we can notice the method 
-hasn't been implemented ![preview](src/resources/images/ex4_2.png).
+hasn't been implemented ![preview](C:/projects/msd21_tosheva_aleksoska_ivana/resources/images/ex4_2.png).
+
+This is the end result after completing the whole exercise ![preview](C:/projects/msd21_tosheva_aleksoska_ivana/resources/images/ex4_3.png)
 
 Author: ```Ivana Tosheva Aleksoska```
