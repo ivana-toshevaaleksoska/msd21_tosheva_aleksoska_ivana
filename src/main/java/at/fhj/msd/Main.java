@@ -2,10 +2,20 @@
 
 package at.fhj.msd;
 
-public class Main {public static void main(String[] args) {
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-  //  double num1 = Double.parseDouble(args[0]);
-  //  double num2 = Double.parseDouble(args[1]);
+public class Main {
+
+    public static Logger logger = LogManager.getLogger();
+
+
+    public static void main(String[] args) {
+
+        logger.info("This is an INFO logger!");
+        logger.error("This is an ERROR logger!");
+
+
     double num1 = 20;
     double num2 = 10;
     System.out.println("Calculation #1: " + num1 + " + " +num2 + " = " + Calculator.add(num1,num2));
