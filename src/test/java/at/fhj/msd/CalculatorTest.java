@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class CalculatorTest {
     private Calculator calcTest;
 
@@ -92,6 +94,13 @@ public class CalculatorTest {
         double result = calcTest.divide(a,b);
 
         Assertions.assertEquals(expectedResult,result);
+    }
+
+    @Test
+    public void NullDivisionTest(){
+        assertThrows(ArithmeticException.class, () -> {
+            calcTest.divide(5, 0);
+        });
     }
 
     @Test
