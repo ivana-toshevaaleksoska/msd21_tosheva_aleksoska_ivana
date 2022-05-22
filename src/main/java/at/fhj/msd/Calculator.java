@@ -4,19 +4,21 @@ package at.fhj.msd;
 
 public class Calculator {
     public static double add(double number1, double number2) {
-        Main.logger.debug("Parameters: " + number1 + number2);
+        Main.logger.debug("Parameters: " + number1 + " , "+ number2);
         return number1 + number2;
     }
 
     public static double minus(double number1, double number2) {
-        Main.logger.debug("Parameters: " + number1 + number2);
+        Main.logger.debug("Parameters: " + number1 + " , " + number2);
         return number1 - number2;
     }
 
     public static double divide(double number1, double number2) {
-        Main.logger.debug("Parameters: " + number1 + number2);
+        Main.logger.debug("Parameters: " + number1 + " , " + number2);
+
         double quotient;
         if (number2 == 0) {
+            Main.logger.error("Division with 0!");
             throw new ArithmeticException("Division " + number1 + " / " + number2 + " isn't possible");
         }
         else {
@@ -27,7 +29,7 @@ public class Calculator {
     }
 
     public static double multiply(double number1, double number2) {
-        Main.logger.debug("Parameters: " + number1 + number2);
+        Main.logger.debug("Parameters: " + number1 + " , " + number2);
         return number1 * number2;
     }
 
