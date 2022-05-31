@@ -9,7 +9,12 @@ public class Main {
 
     public static Logger logger = LogManager.getLogger();
 
-
+    /**
+     *
+     * @author Ivana Tosheva Aleksoska
+     * @link https://github.com/ivana-toshevaaleksoska/msd21_tosheva_aleksoska_ivana.git
+     * @param args
+     */
     public static void main(String[] args) {
 
         logger.info("This is an INFO logger!");

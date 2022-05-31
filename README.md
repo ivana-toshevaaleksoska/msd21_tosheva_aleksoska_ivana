@@ -37,6 +37,8 @@ The details of the second exercise are [here](exercise2.md)
 To view the details of the third exercise click [here](exercise3.md)  
 To view the details of the fourth exercise click [here](exercise4.md)  
 To view the details of the fifth exercise click [here](exercise5.md)  
+To view the details of the sixth exercise click [here](exercise6.md)  
+
 ### Contribution
 
 >Please consult author if you want to contribute or make any
